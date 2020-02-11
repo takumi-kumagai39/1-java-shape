@@ -31,7 +31,7 @@ public class Tryangle {
     return this.name;
   }
 
-  // private method
+  // private method (辺の長さから三角形の面積を求める'ヘロンの公式')
   private Double heronsFormula(Integer edgeLengthA, Integer edgeLengthB, Integer edgeLengthC) {
     Double s = (edgeLengthA + edgeLengthB + edgeLengthC) / 2.0;
     Double S = s * (s - edgeLengthA) * (s - edgeLengthB) * (s - edgeLengthC);
