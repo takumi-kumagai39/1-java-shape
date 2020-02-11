@@ -23,6 +23,15 @@ public class Square {
     this.edgeAD = edgeAD;
   }
 
+  // コンストラクタのオーバロード(長方形)
+  public Square(String name, Integer edgeA, Integer edgeB) {
+    this.name = name;
+    this.edgeAB = edgeA;
+    this.edgeAD = edgeA;
+    this.edgeBC = edgeB;
+    this.edgeCD = edgeB;
+  }
+
   public Double area(){
     return brahmaguptasFormula(edgeAB, edgeBC, edgeCD, edgeAD);
   }
