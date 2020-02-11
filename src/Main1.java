@@ -1,7 +1,7 @@
 import shape1.Square;
 import shape1.Tryangle;
 
-public class Main {
+public class Main1 {
     public static void main(String[] args){
       learn1();
       learn2();
